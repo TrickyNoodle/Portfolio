@@ -1,0 +1,5 @@
+#navbar li::before{
+    content: '#';
+    color: #C778DD;
+    font-weight: bold;
+}

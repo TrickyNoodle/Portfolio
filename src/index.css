@@ -1,0 +1,16 @@
+@import "tailwindcss";
+body{
+    background-color: #282C33;
+}
+#root{
+    background-color: #282C33;
+    color: white;
+    font-family: monospace;
+    font-size: large;
+}
+.primarycolor{
+    color: #C778DD;
+}
+.secondarycolor{
+    color: #ABB2BF;
+}
