@@ -18,7 +18,7 @@ const Skills = () => {
                     <div className='mx-2 w-1/2 h-0.5 bg-[#C778DB]'></div>
                 </div>
                 <div className='flex w-full align-middle py-10'>
-                    <div className='flex w-full relative'>
+                    <div className='flex w-full relative not-md:hidden'>
                         <div className='w-1/4 border-2 border-[#C778DD] h-1/3 bottom-0 absolute'>
                             <div className='w-full border-2  border-[#C778DD] h-full absolute top-1/3 left-1/3'></div>
                         </div>
@@ -37,9 +37,9 @@ const Skills = () => {
                     </div>
 
 
-                    <div className="columns-3 gap-4 w-full" dir="rtl">
+                    <div className="columns-3 gap-4 w-full not-md:w-fit not-md:flex not-md:flex-col">
                         {Object.keys(skills).map((e) => (
-                            <div key={e} className="break-inside-avoid border border-gray-400 mb-4" dir="ltr">
+                            <div key={e} className="break-inside-avoid border border-gray-400 mb-4 not-md:w-fit" dir="ltr">
                                 <h3 className="font-bold border-b border-gray-400 p-2">{e}</h3>
                                 <p className="flex flex-wrap p-2">
                                     {skills[e].map((v) => (

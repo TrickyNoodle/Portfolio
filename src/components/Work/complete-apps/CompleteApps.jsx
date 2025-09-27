@@ -7,7 +7,7 @@ const CompleteApps = () => {
     <div className='flex flex-col gap-4'>
       <p className='text-2xl font-bold'><span className='primarycolor'>#</span>complete-apps</p>
 
-      <div className='columns-3 gap-4 w-full [&>div]:break-inside-avoid'>
+      <div className='not-md:flex flex-col columns-3 gap-4 w-full [&>div]:break-inside-avoid'>
         <div className="flex flex-col border-1 border-[#ABB2B]">
           <img src="mango-leaff.jpeg" alt="" />
           <ul className='p-2  border-1 border-[#ABB2B] secondarycolor flex justify-start gap-1 list-none flex-wrap'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 const First = () => {
   return (
-    <div className='flex w-full items-center justify-center [&>div]:mx-4'>
+    <div className='flex not-md:flex-col w-full items-center justify-center [&>div]:mx-4'>
       <div className='w-fit flex-col flex'>
         <h1 className=' font-bold text-3xl [word-spacing:0.5rem] my-2'>Sagar Shinde is a <span className='primarycolor'>Web Developer</span> and a <span className='primarycolor'>Student</span></h1>
         <p className='secondarycolor my-4'>He develops websites wherer technologies meet creativity</p>

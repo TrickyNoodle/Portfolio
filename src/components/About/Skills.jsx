@@ -13,7 +13,7 @@ const Skills = () => {
     return (
         <div className='flex w-full flex-col gap-8'>
             <p className='text-2xl font-bold'><span className='primarycolor'>#</span>skills</p>
-            <div className={`columns-5 gap-4`} dir="rtl">
+            <div className={`columns-5 md:gap-4 not-md:flex flex-col`} dir="">
                 {Object.keys(skills).map((e) => (
                     <div key={e} className="break-inside-avoid border border-gray-400 mb-4" dir="ltr">
                         <h3 className="font-bold border-b border-gray-400 p-2">{e}</h3>

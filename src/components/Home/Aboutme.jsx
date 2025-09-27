@@ -3,7 +3,7 @@ import { BiRightArrow, BiRightArrowAlt, BiSolidRightArrow, BiSolidRightArrowAlt 
 import { Link } from 'react-router'
 const Aboutme = () => {
   return (
-    <div className='flex w-full'>
+    <div className='flex w-full not-md:flex-col'>
       <div className='flex w-full flex-col gap-8 secondarycolor'>
         <div className=' flex w-full items-center'>
           <span className='font-bold text-2xl text-white w-fit'><span className='primarycolor'>#</span>aboutme</span>

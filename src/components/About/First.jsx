@@ -3,7 +3,7 @@ import { BiRightArrow, BiRightArrowAlt, BiSolidRightArrow, BiSolidRightArrowAlt 
 import { Link } from 'react-router'
 const First = () => {
   return (
-    <div className='flex w-full items-center'>
+    <div className='not-md:flex-col flex w-full items-center'>
       <div className='flex w-full flex-col gap-8 secondarycolor'>
         <p>Hello ,i'm Sagar Shinde</p>
         <p>I'm a self taught front-end and backend developer based in Maharashtra,India.I can develop responsive websites from scratch and raise them into modern user-freindly web experiences.</p>

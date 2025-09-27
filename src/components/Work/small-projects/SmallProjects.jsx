@@ -8,7 +8,7 @@ const SmallProjects = () => {
             <p className='text-2xl font-bold'><span className='primarycolor'>#</span>small-projects</p>
 
 
-            <div className='columns-3 [&>div]:break-inside-avoid'>
+            <div className='columns-3 [&>div]:break-inside-avoid not-md:flex flex-col [&>div]:my-2'>
                 <div className="flex flex-col border-1 border-[#ABB2B]">
                     <ul className='p-2  border-1 border-[#ABB2B] secondarycolor flex justify-start gap-1 list-none flex-wrap'>
                         <li>Python</li>

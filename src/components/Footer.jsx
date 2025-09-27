@@ -6,12 +6,12 @@ const Footer = () => {
     return (
         <div className='py-4'>
             <hr />
-            <div className='w-3/4 mx-auto flex py-4 transition-all ease-in-out duration-300'>
+            <div className='w-3/4 mx-auto flex py-4 transition-all ease-in-out duration-300 not-md:flex-col [&>div]:my-2'>
                 <div className='flex w-full flex-col gap-2'>
                     <p className='font-bold'>TrickyNoodle <span className='secondarycolor font-normal'>github.com/TrickyNoodle</span></p>
                     <p>Frontend,Backend and Full Stack Developer</p>
                 </div>
-                <div className='flex w-full justify-end'>
+                <div className='flex w-full md:justify-end'>
                     <div>
                         <p className='text-2xl'>Links</p>
                         <div className='flex gap-4 p-4'>
