@@ -17,7 +17,7 @@ const First = () => {
             <div key={i} className="w-1 h-1 bg-[#ABB2BF] rounded-full"></div>
           ))}
         </div>
-        <img src="src\assets\Image-1.png" alt='Image failed to Display' className='z-10' />
+        <img src="Image-1.png" alt='Image failed to Display' className='z-10' />
         <div className='border-1 px-1 py-1 border-[#ABB2BF] w-full text-left secondarycolor flex items-center gap-1 z-30 backdrop-blur-2xl'>
           <div className="w-4 h-4 bg-purple-500 inline-block" />
           <span>Currently Working on <span className='text-white'>Portfolio</span></span>
