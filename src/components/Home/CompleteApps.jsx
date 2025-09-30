@@ -1,6 +1,5 @@
 import React from 'react'
-import { BsArrows } from 'react-icons/bs'
-import { FaAngleRight, FaGithub } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router'
 const CompleteApps = () => {
   return (

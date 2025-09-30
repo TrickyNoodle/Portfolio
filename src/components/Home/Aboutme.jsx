@@ -15,7 +15,7 @@ const Aboutme = () => {
         <Link to='about-me' className=' font-bold border-2 border-[#C778DD] px-4 py-2 hover:bg-[#8c499fb9] transition-all ease-in-out duration-300 flex items-center w-fit'>Read More <BiRightArrowAlt/> </Link>
       </div>
 
-      <div className='flex w-full justify-end relative'>
+      <div className='flex w-full md:justify-end justify-center relative'>
         <div className='w-fit relative'>
           <img src='Image.png' className='border-[#c778db] border-b-1'></img>
           <div className="grid grid-cols-6 h-1/6 w-1/3 absolute bottom-1/10 right-0 z-20">

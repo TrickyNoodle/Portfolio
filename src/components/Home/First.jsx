@@ -5,8 +5,8 @@ const First = () => {
     <div className='flex not-md:flex-col w-full items-center justify-center [&>div]:mx-4'>
       <div className='w-fit flex-col flex'>
         <h1 className=' font-bold text-3xl [word-spacing:0.5rem] my-2'>Sagar Shinde is a <span className='primarycolor'>Web Developer</span> and a <span className='primarycolor'>Student</span></h1>
-        <p className='secondarycolor my-4'>He develops websites wherer technologies meet creativity</p>
-        <Link to='contact' className=' font-bold border-2 border-[#C778DD] px-4 py-2 text-xs hover:bg-[#8c499fb9] transition-all ease-in-out duration-300 w-fit'>Contact Me!!</Link>
+        <p className='secondarycolor my-4'>He develops websites where technologies meet creativity</p>
+        <Link to='about-me' className=' font-bold border-2 border-[#C778DD] px-4 py-2 text-xs hover:bg-[#8c499fb9] transition-all ease-in-out duration-300 w-fit'>Learn More!!</Link>
       </div>
       <div className='flex flex-col relative'>
         <div className='w-1/3 border-2 border-[#C778DD] h-1/3 absolute top-4'>

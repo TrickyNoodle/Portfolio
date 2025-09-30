@@ -23,7 +23,7 @@ const Navbar = () => {
           <li><NavLink className={({ isActive }) => isActive ? 'font-medium text-white' : ''} onClick={() => { setshown(!shown) }} to='work'>work</NavLink></li>
           <li><NavLink className={({ isActive }) => isActive ? 'font-medium text-white' : ''} onClick={() => { setshown(!shown) }} to='about-me'>about-me</NavLink></li>
         </ul>
-        <div className='md:hidden flex gap-4 p-4 justify-center'>
+        <div className='md:hidden flex gap-4 py-12 justify-center'>
           <Link to='https://github.com/TrickyNoodle'><BsGithub className='text-3xl fill-gray-400 hover:fill-white transition-all ease-in-out duration-300' /></Link>
           <Link to='https://www.linkedin.com/in/sagar-shinde-9aa94531b/'><BsLinkedin className='text-3xl fill-gray-400 hover:fill-white transition-all ease-in-out duration-300' /></Link>
         </div>

@@ -6,9 +6,11 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Footer from './components/Footer'
 import Work from './components/Work/Work'
+import Ribbon from './components/Ribbon'
 const App = () => {
   return (
     <>
+      <Ribbon />
       <Navbar />
       <Routes>
         <Route index element={<Home />} />

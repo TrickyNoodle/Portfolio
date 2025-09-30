@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 const Contacts = () => {
     return (
-        <div className='flex w-full flex-col'>
+        <div id='contacts' className='flex w-full flex-col'>
             <div className='flex w-full items-center'>
                 <p className='font-bold text-white text-2xl'><span className='primarycolor'>#</span>contacts</p>
                 <div className='w-1/6 h-0.5 flex bg-[#C778DB]'></div>
