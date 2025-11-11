@@ -8,7 +8,7 @@ const CompleteApps = () => {
 
       <div className='md:columns-3 gap-4 w-full not-md:flex not-md:flex-col [&>div]:break-inside-avoid'>
         <div className="flex flex-col border-1 border-[#ABB2B]">
-          <img src="mango-leaff.jpeg" alt="" />
+          <img src="mango-leaff.jpeg" alt="" loading='lazy'/>
           <ul className='p-2  border-1 border-[#ABB2B] secondarycolor flex justify-start gap-1 list-none flex-wrap'>
             <li>HTML</li>
             <li>Tailwindcss</li>
@@ -28,7 +28,7 @@ const CompleteApps = () => {
         </div>
 
         <div className="flex flex-col border-1 border-[#ABB2B]">
-          <img src="https://raw.githubusercontent.com/TrickyNoodle/Smart-Light-Control-System-using-ESP32/refs/heads/main/images/webserver2.jpeg" alt="" />
+          <img loading='lazy' src="https://raw.githubusercontent.com/TrickyNoodle/Smart-Light-Control-System-using-ESP32/refs/heads/main/images/webserver2.jpeg" alt="" />
           <ul className='p-2  border-1 border-[#ABB2B] secondarycolor flex justify-start gap-1 list-none flex-wrap'>
             <li>HTML</li>
             <li>JavaScript</li>
@@ -47,7 +47,7 @@ const CompleteApps = () => {
         </div>
 
         <div className="flex flex-col border-1 border-[#ABB2B]">
-          <img src="https://camo.githubusercontent.com/f7df0129c086d43a200cb5e39a0f7f5fd900c0b418b0cecd571b1cd1404759ba/68747470733a2f2f676f646f74656e67696e652e6f72672f6173736574732f70726573732f6c6f676f5f736d616c6c5f636f6c6f725f6461726b2e706e67" alt="" />
+          <img loading='lazy' src="https://camo.githubusercontent.com/f7df0129c086d43a200cb5e39a0f7f5fd900c0b418b0cecd571b1cd1404759ba/68747470733a2f2f676f646f74656e67696e652e6f72672f6173736574732f70726573732f6c6f676f5f736d616c6c5f636f6c6f725f6461726b2e706e67" alt="" />
           <ul className='p-2  border-1 border-[#ABB2B] secondarycolor flex justify-start gap-1 list-none flex-wrap'>
             <li>Godot</li>
             <li>GDScript</li>
