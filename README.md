@@ -1,12 +1,57 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built with modern web tools, showcasing projects, skills, and contact details.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- React (JSX)
+- Vite
+- CSS modules
+- HTML, CSS, JavaScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure
+- `src/`
+  - `App.jsx` - main app entry
+  - `main.jsx` - React root render
+  - `components/` - bundled UI components
+    - `Navbar`, `Footer`, `Ribbon`
+    - `Home`, `About`, `Work` sections
+- `public/` - static assets
+- `index.html` - template
+- `vite.config.js` - Vite config
+- `package.json` - scripts and dependencies
 
-## Expanding the ESLint configuration
+## ✨ Features
+- Responsive design
+- Sectioned layout (Home, About, Work, Contacts)
+- Project galleries (complete apps, small projects)
+- Skill and experience highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ▶️ Run Locally
+1. Clone:
+   ```bash
+   git clone <YOUR_REPO_URL>
+   cd Portfolio
+   ```
+2. Install:
+   ```bash
+   npm install
+   ```
+3. Start dev server:
+   ```bash
+   npm run dev
+   ```
+4. Open link in browser (usually `http://localhost:5173`).
+
+## 🧩 Build
+```bash
+npm run build
+```
+
+## 📦 Preview production build
+```bash
+npm run serve
+```
+
+## 🛠️ Customize
+- Change text in `src/components/Home/*`, `About/*`, and `Work/*`
+- Style in `src/App.css`, `src/index.css`, `src/components/*/*.css`
