@@ -9,7 +9,11 @@ const CompleteApps = () => {
 
       <div className='not-md:flex flex-col columns-3 gap-4 w-full [&>div]:break-inside-avoid'>
         <div className="flex flex-col border-1 border-[#ABB2B]">
+<<<<<<< HEAD
           <img loading='lazy' src="mango-leaff.jpeg" alt="" />
+=======
+          <img src="mango-leaff.jpeg" alt="" />
+>>>>>>> 935a062 (push all again)
           <ul className='p-2  border-1 border-[#ABB2B] secondarycolor flex justify-start gap-1 list-none flex-wrap'>
             <li>HTML</li>
             <li>Tailwindcss</li>

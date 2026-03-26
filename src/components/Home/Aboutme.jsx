@@ -17,7 +17,11 @@ const Aboutme = () => {
 
       <div className='flex w-full md:justify-end justify-center relative'>
         <div className='w-fit relative'>
+<<<<<<< HEAD
           <img loading='lazy' src='Image.png' className='border-[#c778db] border-b-1'></img>
+=======
+          <img src='Image.png' className='border-[#c778db] border-b-1'></img>
+>>>>>>> 935a062 (push all again)
           <div className="grid grid-cols-6 h-1/6 w-1/3 absolute bottom-1/10 right-0 z-20">
             {Array.from({ length: 30 }).map((_, i) => (
               <div key={i} className="w-1 h-1 bg-[#ABB2BF] rounded-full"></div>
