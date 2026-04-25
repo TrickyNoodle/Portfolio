@@ -32,13 +32,7 @@ const Quotes = () => {
 
 async function quotesfetcher() {
   try {
-<<<<<<< HEAD
     const res = await fetch("https://dummyjson.com/quotes/random");
-=======
-    const res = await fetch("https://quotes-api-self.vercel.app/quote");
-    if (!res.ok)
-      return { quote: "abcd", author: "1244" };
->>>>>>> 935a062 (push all again)
     return await res.json();
   } catch (err) {
     return { quote: "With Great Power Comes Great Electricity Bill", author: "Dr. Who" };

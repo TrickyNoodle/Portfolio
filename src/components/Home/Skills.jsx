@@ -3,7 +3,7 @@ import React from 'react'
 let skills = {
     "Other": ["HTML", "CSS"],
     "Tools": ["VSCode", "Linux", "Figma", "Gnome", "Ubuntu", "Git", "Fedora", "GodotEngine", "Arduino", "Vite"],
-    "Databases": ["Mongodb"],
+    "Databases": ["Mongodb","MYSQL"],
     "Frameworks": ["React", "Flask", "Express.js", "Next.js", "Arduino-framework", "Espressif-framework", "TailwindCSS", "TensorFlow"],
     "Languages": ["Python", "JavaScript", "C", "Java", "GDScript", "Embedded-C"],
 };

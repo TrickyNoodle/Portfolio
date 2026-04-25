@@ -14,11 +14,7 @@ const Home = () => {
       }, 100);
     })
   return (
-<<<<<<< HEAD
     <div className={`${visible?"opacity-100":"opacity-0"} flex flex-col not-md:mx-4 md:w-3/4 mx-auto justify-center md:[&>div]:my-8 [&>div]:my-8 transition-all ease-in-out duration-300`}>
-=======
-    <div className={`${visible?"opacity-100":"opacity-0"} flex flex-col not-md:mx-4 md:w-3/4 mx-auto justify-center md:[&>div]:my-15 [&>div]:my-10 transition-all ease-in-out duration-300`}>
->>>>>>> 935a062 (push all again)
       <First />
       <Quotes/>
       <CompleteApps/>
