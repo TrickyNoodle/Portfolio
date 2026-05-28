@@ -2,12 +2,17 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router'
 
 async function fetch_last_commit() {
-  let data = await (fetch("https://api.github.com/users/TrickyNoodle/events/public"))
-  data = await data.json();
-  data = data[0]
-  let name = data['repo']['name']
-  name = name.slice(name.indexOf('/') + 1)
-  return name
+  try{
+    let data = await (fetch("https://api.github.com/users/TrickyNoodle/events/public"))
+    data = await data.json();
+    data = data[0]
+    let name = data['repo']['name']
+    name = name.slice(name.indexOf('/') + 1)
+    return name
+  }
+  catch(error){
+    return "His Skills"
+  }
 }
 
 const First = () => {
